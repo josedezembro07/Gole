@@ -1,0 +1,98 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #1d1f1e;
+}
+
+h1, h2 {
+    color: #f4a261;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1d1f1e;
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 5px solid #f4a261;
+}
+
+header p {
+    font-size: 18px;
+    color: #fefaf3;
+}
+
+/* Seções */
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #3e3e3e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #f4a261;
+}
+
+.games p {
+    font-size: 18px;
+}
+
+/* Botão WhatsApp */
+.whatsapp-button {
+    display: inline-block;
+    background: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background: #f4a261;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    background-color: #f4a261;
+    text-align: center;
+    padding: 10px 0;
+    color: #1d1f1e;
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    li {
+        font-size: 14px;
+    }
+}
